@@ -1,0 +1,33 @@
+{
+  "name": "proyectogrupo5",
+  "version": "1.0.0",
+  "description": "Backend Mision TIC 2022 UNAB-USA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "react"
+  ],
+  "author": "Cristian J Baquero",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "mogoose": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.5",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
